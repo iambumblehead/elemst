@@ -1,0 +1,17 @@
+{
+  "name": "elemst",
+  "version": "0.0.1",
+  "readmeFilename": "README.md",
+  "license" : "MIT",
+  "description": "handle the state of an element in the document.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iambumblehead/elemst.git"
+  },
+  "keywords": [
+    "document",
+    "update",
+    "state",
+    "change"
+  ]
+}

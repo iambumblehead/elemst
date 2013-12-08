@@ -1,0 +1,20 @@
+/* Filename: elemstateTest.less  
+ * Timestamp: 2013.12.07-12:14:19 (last modified)  
+ * Author(s): Bumblehead (www.bumblehead.com)  
+ */
+
+.bttn {
+    display:inline-block;
+    background-color:blue;
+    color:#fff;
+    border:1px solid red;
+}
+
+.bttn:hover {
+    background-color:red;    
+}
+
+.bttn-label {
+    display:inline-block;
+    margin:20px 10px;
+}
