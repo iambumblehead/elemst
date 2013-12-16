@@ -1,5 +1,5 @@
 // Filename: elemst.js  
-// Timestamp: 2013.12.08-13:21:53 (last modified)  
+// Timestamp: 2013.12.16-00:25:06 (last modified)  
 // Author(s): Bumblehead (www.bumblehead.com)  
 //
 // methods for handling "state" of an element through className:
@@ -36,11 +36,11 @@ var elemst = {
   up : function (elem, stateidStr) {
     var className, 
         newclass = 'st-' + stateidStr,
-        stateid = stateidStr.match(/(\w*(?:-)|\b)(\w*)/),
+        stateid = (stateidStr || '').match(/(\w*(?:-)|\b)(\w*)/) || [],
         state = stateid[2],
         id = stateid[1] || '';
 
-    if (elem) {
+    if (elem && state) {
       className = elem.className;
       if (!className.match(newclass)) {
         stateid = new RegExp('st-' + '\(' + id + '\\w*\)');

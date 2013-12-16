@@ -1,5 +1,5 @@
 // Filename: elemstateTest.js  
-// Timestamp: 2013.12.08-13:22:17 (last modified)  
+// Timestamp: 2013.12.16-00:24:51 (last modified)  
 // Author(s): Bumblehead (www.bumblehead.com)  
 // Requires: elemst.js
 
@@ -19,5 +19,9 @@ var elemstateTest = {
     console.log(elemst.is(bttnElem, 'active'));    
     elemst.rm(bttnElem, 'active');    
     console.log(elemst.is(bttnElem, 'active'));
+
+    
+    // should not break if given empty values
+    console.log(elemst.up(null, ''));
   }
 };
