@@ -64,7 +64,7 @@ Visit `test/index.html` in your browser to see and test elemst
 ---------------------------------------------------------
 #### <a id="license">License:
 
- ![scrounge](http://github.com/iambumblehead/scroungejs/raw/master/img/hand.png) 
+ ![scrounge](https://github.com/iambumblehead/scroungejs/raw/master/img/hand.png) 
 
 (The MIT License)
 
