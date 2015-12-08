@@ -1,6 +1,6 @@
 {
   "name": "elemst",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "readmeFilename": "README.md",
   "license" : "MIT",
   "description": "handle the state of an element in the document.",
