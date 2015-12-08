@@ -8,7 +8,7 @@
 // elemstate.is()
 // elemstate.rm()
 
-var elemst = {
+var elemst = module.exports = {
 
   // elemstate.up(elem, 'select-active');
   // - ensures `st-select-active` is defined on elem.className
