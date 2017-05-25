@@ -1,6 +1,6 @@
 {
   "name": "elemst",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "readmeFilename": "README.md",
   "license" : "MIT",
   "main": "elemst.js",
