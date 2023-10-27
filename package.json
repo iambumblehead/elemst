@@ -1,13 +1,21 @@
 {
   "name": "elemst",
-  "version": "0.0.5",
+  "type": "module",
+  "version": "0.0.6",
   "readmeFilename": "README.md",
   "license" : "MIT",
   "main": "elemst.js",
   "description": "handle the state of an element in the document.",
+  "type": "module",
+  "exports": {
+    "import": "./elemst.js"
+  },
+  "files": [
+    "./elemst.js"
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/iambumblehead/elemst.git"
+    "url": "git+https://github.com/iambumblehead/elemst.git"
   },
   "keywords": [
     "document",
